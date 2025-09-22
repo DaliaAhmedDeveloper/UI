@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>طلبات منتهية - Victoria Dashboard</title>
+	<meta name="description" content="طلبات منتهية في لوحة تحكم Victoria Dashboard.">
+	<link rel="icon" href="img/logo.png" type="image/png">
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.css"/>
+	<link rel="stylesheet" href="fonts/style.css"/>
+     <link rel="stylesheet" href="css/datatables.min.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+</head>
+	<body>
+		
+		<div class="pageContainer">
+		
+			<div class="container--fluid">
+				<div class="row">
+				<!--==sidebar==-->
+					<div class="col-xl-3 col-lg-4">
+
+						<div class="m-overlay"></div>
+						<!--==sidebar-->
+						<div class="sidebar">
+
+							<span class="close-menu d-lg-none"> اغلاق</span>
+							<!--=profile=-->
+							<div class="profile">
+								<a href="index.html" class="logo">
+									<img src="img/logoo.png" alt="Victoria Logo" width="120" height="40" loading="lazy">
+								</a>
+								<div class="d-flex align-items-center justify-content-start prof">
+									<div class="profile-img">
+										<img src="img/user.png" alt="User Profile" width="48" height="48" loading="lazy">
+										<span class="status d-block"></span>
+									</div>
+									<div class="profile-name">
+										<span class="d-block">أحمد إبراهيم محمد</span>
+										<span class="d-block">ui / ux</span>
+									</div>
+								</div>
+							</div>
+							<!--==-->
+							<ul class="list-unstyled site-menu">
+								<li class="sidebar-link">
+									<a href="index.html">
+										<i class="icon-noun_dashboard_676468" aria-hidden="true"></i>
+										<span>الرئيسه</span>
+									</a>
+								</li>
+								<li class="sidebar-link">
+									<a href="sections.html">
+										<i class="icon-noun_window_3401932"></i>
+										<span>الاقسام</span>
+									</a>
+								</li>
+								<li class="sidebar-link">
+									<a href="products.html">
+										<i class="icon-noun_product_3407444"></i>
+										<span>المنتجات</span>
+									</a>
+								</li>
+								<li class="sidebar-dropdown">
+									<span class="dropdown-title active-link">
+										<i class="icon-noun_order_2046089"></i>
+										<span>الطلبات</span>
+										<i class="fa fa-angle-left trans sidebar-arrow" aria-hidden="true"></i>
+
+									</span>
+									<ul class="list-unstyled">
+										<li class="sidebar-dropdown-link">
+											<a href="requests_1.html">طلبات واردة  </a>
+										</li>
+										<li class="sidebar-dropdown-link">
+											<a href="requests_2.html">طلبات قيد التنفيذ</a>
+										</li>
+										<li class="sidebar-dropdown-link active-link">
+											<a href="requests_3.html">طلبات منتهية</a>
+										</li>
+									</ul>
+								</li>
+								
+								<li class="sidebar-link">
+									<a href="settings.html">
+										<i class="icon-nut-icon"></i>
+										<span>الاعدادات</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!--=end sidebar=-->
+					</div>
+					<!--end side bar-->
+
+					<!--==page-content==-->
+					<div class="col-xl-9 col-lg-8">
+
+						<!--=page title=-->
+						<div class="page-title">
+							<div class="d-flex align-items-center justify-content-between">
+								<div class="menu_menu">
+									<img src="img/menu.png" alt="Menu Icon" width="32" height="32" loading="lazy">
+								</div>
+								<div class="title d-flex align-items-center">
+									<a href="notifications.html" class="noti d-block">
+										<i class="fa fa-bell" aria-hidden="true"></i>
+										<span>12</span>
+									</a>
+									<div class="sett">
+										<i class="fa fa-cog" aria-hidden="true"></i>
+										<ul class="list-unstyled">
+											<li><a href="profile.html">الملف الشخصى</a></li>
+											<li><a href="#">تسجيل الخروج</a></li>
+										</ul>
+									</div>
+									<a href="" class="d-block uuuser">
+										<img src="img/u.png" alt="User Icon" width="32" height="32" loading="lazy">
+										<span></span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!--============-->
+						
+						<div class="page-content">
+
+							<!--====-->
+								<div class="welcome-user">
+									<span class="d-block">ملخص الطلبات</span>
+									<div>
+										<span> هذا النص هو مثال لنص يمكن ان يستبدل</span>
+									</div>
+								</div>
+								<!--===-->
+
+								<!--=====Actions====-->
+								<div id='actions' class="member-actions">
+									<div class="row">
+	
+										<!--===-->
+										<div class="col-lg-3 col-md-6">
+											<div id='action' class="d-flex align-items-center justify-content-start">
+												<i class="fa fa-file-text-o d-flex align-items-center justify-content-center yellow" aria-hidden="true"></i>
+												<div>
+													<span class="d-block">868</span>
+													<span class="d-block">طلبات واردة</span>
+												</div>
+											</div>
+										</div>
+										<!--===-->
+	
+										<!--===-->
+										<div class="col-lg-3 col-md-6">
+											<div id='action' class="d-flex align-items-center justify-content-start">
+												<i class="fa fa-file-text-o d-flex align-items-center justify-content-center green" aria-hidden="true"></i>
+												<div>
+													<span class="d-block">868</span>
+													<span class="d-block">طلبات قيد التنفيذ</span>
+												</div>
+											</div>
+										</div>
+										<!--===-->
+	
+										<!--===-->
+										<div class="col-lg-3 col-md-6">
+											<div id='action' class="d-flex align-items-center justify-content-start">
+												<i class="fa fa-file-text-o d-flex align-items-center justify-content-center red" aria-hidden="true"></i>
+												<div>
+													<span class="d-block">868</span>
+													<span class="d-block">طلبات منتهية</span>
+												</div>
+											</div>
+	
+										</div>
+										<!--===-->
+	
+										<!--===-->
+										<div class="col-lg-3 col-md-6">
+											<div id='action' class="d-flex align-items-center justify-content-start">
+												<i class="fa fa-file-text-o d-flex align-items-center justify-content-center yellow" aria-hidden="true"></i>
+												<div>
+													<span class="d-block">868</span>
+													<span class="d-block">عدد الاقسام</span>
+												</div>
+											</div>
+										</div>
+										<!--===-->
+									</div>
+								</div>
+								<!--===end actions====-->
+
+							<!--==table==-->
+						    <div class="_table">
+
+
+								<span class="d-block table-title">طلبات منتهية</span>
+
+								<table>
+									<thead>
+									  <tr>
+										<th scope="col" width="60px">رقم</th>
+										<th scope="col">صورة العميل</th>
+										<th scope="col">اسم العميل</th>
+										<th scope="col"> السعر الاجمالى</th>
+										<th scope="col">الوقت</th>
+										<th scope="col">تفاصيل الطلب</th>
+										<th scope="col"></th>
+									  </tr>
+									</thead>
+									<tbody>
+									<!--table row-->
+									  <tr>
+										<td data-label="رقم">
+											1
+										</td>
+										<td data-label="صورة العميل">
+											<div class="img">
+												<img src="img/img.png" alt="">
+											</div>
+										</td>
+										<td data-label="اسم العميل">
+											إسراء الموجي
+										</td>
+										<td data-label="السعر الاجمالى">
+											3400 رس
+										</td>
+
+										<td data-label="الوقت">
+											3 دقائق
+										</td>
+										<td data-label="تفاصيل الطلب">
+											<a href="details_2.html">عرض التفاصيل</a>
+										</td>
+										
+										<td data-label="الحاله">
+											<button class="t-status d-block">
+												<img src="img/menuu.png" alt="">
+												<i class="fa fa-times" aria-hidden="true"></i>
+												<ul class="list-unstyled">
+													<li><a href="edit.html"> تعديل </a></li>
+													<li><a href="">حذف</a></li>
+												</ul>
+											</button>
+										</td>
+										
+									  </tr>
+									  <!--===-->
+									  	<!--table row-->
+									  <tr>
+										<td data-label="رقم">
+											1
+										</td>
+										<td data-label="صورة العميل">
+											<div class="img">
+												<img src="img/img.png" alt="">
+											</div>
+										</td>
+										<td data-label="اسم العميل">
+											إسراء الموجي
+										</td>
+										<td data-label="السعر الاجمالى">
+											3400 رس
+										</td>
+
+										<td data-label="الوقت">
+											3 دقائق
+										</td>
+										<td data-label="تفاصيل الطلب">
+											<a href="details_2.html">عرض التفاصيل</a>
+										</td>
+										
+										<td data-label="الحاله">
+											<button class="t-status d-block">
+												<img src="img/menuu.png" alt="">
+												<i class="fa fa-times" aria-hidden="true"></i>
+												<ul class="list-unstyled">
+													<li><a href="edit.html"> تعديل </a></li>
+													<li><a href="">حذف</a></li>
+												</ul>
+											</button>
+										</td>
+										
+									  </tr>
+									  <!--===-->
+									  	<!--table row-->
+										  <tr>
+											<td data-label="رقم">
+												1
+											</td>
+											<td data-label="صورة العميل">
+												<div class="img">
+													<img src="img/img.png" alt="">
+												</div>
+											</td>
+											<td data-label="اسم العميل">
+												إسراء الموجي
+											</td>
+											<td data-label="السعر الاجمالى">
+												3400 رس
+											</td>
+	
+											<td data-label="الوقت">
+												3 دقائق
+											</td>
+											<td data-label="تفاصيل الطلب">
+												<a href="details_2.html">عرض التفاصيل</a>
+											</td>
+											
+											<td data-label="الحاله">
+												<button class="t-status d-block">
+													<img src="img/menuu.png" alt="">
+													<i class="fa fa-times" aria-hidden="true"></i>
+													<ul class="list-unstyled">
+														<li><a href="edit.html"> تعديل </a></li>
+														<li><a href="">حذف</a></li>
+													</ul>
+												</button>
+											</td>
+											
+										  </tr>
+										  <!--===-->
+
+										<!--table row-->
+										<tr>
+											<td data-label="رقم">
+												1
+											</td>
+											<td data-label="صورة العميل">
+												<div class="img">
+													<img src="img/img.png" alt="">
+												</div>
+											</td>
+											<td data-label="اسم العميل">
+												إسراء الموجي
+											</td>
+											<td data-label="السعر الاجمالى">
+												3400 رس
+											</td>
+
+											<td data-label="الوقت">
+												3 دقائق
+											</td>
+											<td data-label="تفاصيل الطلب">
+												<a href="details_2.html">عرض التفاصيل</a>
+											</td>
+											
+											<td data-label="الحاله">
+												<button class="t-status d-block">
+													<img src="img/menuu.png" alt="">
+													<i class="fa fa-times" aria-hidden="true"></i>
+													<ul class="list-unstyled">
+														<li><a href="edit.html"> تعديل </a></li>
+														<li><a href="">حذف</a></li>
+													</ul>
+												</button>
+											</td>
+											
+										</tr>
+										<!--===-->
+										
+										<!--table row-->
+										<tr>
+											<td data-label="رقم">
+												1
+											</td>
+											<td data-label="صورة العميل">
+												<div class="img">
+													<img src="img/img.png" alt="">
+												</div>
+											</td>
+											<td data-label="اسم العميل">
+												إسراء الموجي
+											</td>
+											<td data-label="السعر الاجمالى">
+												3400 رس
+											</td>
+
+											<td data-label="الوقت">
+												3 دقائق
+											</td>
+											<td data-label="تفاصيل الطلب">
+												<a href="details.html">عرض التفاصيل</a>
+											</td>
+											
+											<td data-label="الحاله">
+												<button class="t-status d-block">
+													<img src="img/menuu.png" alt="">
+													<i class="fa fa-times" aria-hidden="true"></i>
+													<ul class="list-unstyled">
+														<li><a href="edit.html"> تعديل </a></li>
+														<li><a href="">حذف</a></li>
+													</ul>
+												</button>
+											</td>
+											
+										</tr>
+										<!--===-->
+	
+									</tbody>
+								</table>
+							</div>
+							<!--end table-->
+							
+						</div>
+					</div>
+					<!--end page content-->
+
+				</div>
+			</div>
+		
+			<!--================-->
+
+
+			<!--===copyrights===-->
+			<div class="copyrights">
+				<div class="container-fluid">
+					<span>تصميم وتنفيذ الشبكه</span>
+				</div>
+			</div>
+			<!--================-->
+
+		</div>
+   
+	    <script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        <script src="js/datatables.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

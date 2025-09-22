@@ -1,0 +1,762 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Notifications - Shaheer UI Project.">
+        <title>Notifications | Shaheer UI</title>
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="images/FullColor_1024x1024.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/icofont.min.css" />
+        <link rel="stylesheet" href="css/fonts/style.css" />
+        <link rel="stylesheet" href="css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+        <link rel="stylesheet" href="css/nice-select.css" />
+        <link rel="stylesheet" href="css/lightgallery.min.css" />
+        <link rel="stylesheet" href="css/priceRange.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- <link rel="stylesheet" href="css/rtl.css" /> -->
+    </head>
+    <body>
+
+
+        <div class="pageContainer">
+
+            <!---====== incoming call =======-->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong" style="position: absolute; top: 0;">
+               incoming call
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal incoming-call fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Incoming Call</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                       <div class="img d-inline-block align-middle">
+                           <img src="images/user.png" alt="">
+                       </div>
+                       <span>
+                           incoming call from <strong>ali ali</strong>
+                       </span>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary">Cancel</button>
+                    <button type="button" class="btn btn-primary">Replay</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!--=============================-->
+            <!--=====NAV BAR====-->
+            <nav>
+                <div class="container">
+                    
+                    <div class="row">
+
+                        <div class="col-lg-4 col-sm-3 col-6 col-3 align-self-center">
+                            <a href="" class="logo d-block">
+                                <img src="images/group11.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 align-self-center order-sm-2 order-3">
+                            <div class="searchform">
+                                <form action="">
+                                    <input type="text" name="" id="" placeholder="Search...">
+                                    <button><i class="icofont-search-2"></i></button>
+                                </form>
+
+                                 <!--Search history-->
+                                 <div class="search-history">
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex align-items-center justify-content-between">
+                                            <span><i class="icofont-clock-time"></i>  search history result 1 </span>
+                                            <a href="#">Remove</a>
+                                        </li>
+                                        <li class="d-flex align-items-center justify-content-between">
+                                            <span><i class="icofont-clock-time"></i>  search history result 1 </span>
+                                            <a href="#">Remove</a>
+                                        </li>
+                                        <li class="d-flex align-items-center justify-content-between">
+                                            <span><i class="icofont-clock-time"></i>  search history result 1 </span>
+                                            <a href="#">Remove</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!---->
+
+
+                                <!--search results-->
+                                <div class="_search-results">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="search-results.html" class="d-block">design</a>
+                                        </li>
+                                        <li>
+                                            <a href="search-results.html" class="d-block">design human interface</a>
+                                        </li>
+                                        <li>
+                                            <a href="search-results.html" class="d-block">work design projects</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--end-serch results -->
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-3 col-6 order-sm-3 order-2 align-self-center">
+                            <div class="cart-connect d-flex align-items-center justify-content-end">
+                               <a class="d-block" href="connect.html"><i class="icon-add-contact"></i></a>
+                               <a class="d-block" href="cart.html"><i class="icon-cartt"></i> <span class="d-block"></span></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+            <!--===============-->
+
+            <!--===PAGE BODY===-->
+            <div class="page-body">
+                <div class="container">
+                    <div class="row">
+                         <!--=======Side Bar Menu======-->
+                        <div class="col-xl-3 col-lg-4">
+                           <div class="sidebar-menu">
+
+                               <!--menu links-->
+                               <div class="side-menu-links-container">
+                                <i class="icofont-navigation-menu d-lg-none d-inline-block open-side-menu"></i>
+                                <ul class="list-unstyled side-menu-links">
+                                    <!---->
+                                    <li>
+                                        <a href="home.html" class="d-flex align-items-center">
+                                            <i class="icon-home-line"></i>
+                                            <span>Feed</span>
+                                        </a>
+                                     </li>
+                                     <!---->
+                                     <li>
+                                         <a href="services.html" class="d-flex align-items-center">
+                                             <i class="icon-wireframe"></i>
+                                             <span>Services</span>
+                                         </a>
+                                      </li>
+                                      <!---->
+                                      <li>
+                                         <a href="inbox.html" class="d-flex align-items-center">
+                                             <i class="icon-email"></i>
+                                             <span>Inbox</span>
+                                         </a>
+                                      </li>
+                                      <!---->
+                                      <li>
+                                         <a href="notifications.html" class="d-flex align-items-center">
+                                             <i class="icon-notification"></i>
+                                             <span>Notifications</span>
+                                         </a>
+                                      </li>
+                                      <!---->
+                                      <li>
+                                         <a href="helps.html" class="d-flex align-items-center">
+                                             <i class="icon-lifesaver"></i>
+                                             <span>Helps</span>
+                                         </a>
+                                      </li>
+                                      <!---->
+                                      <li>
+                                         <a href="bookmarks.html" class="d-flex align-items-center">
+                                             <i class="icon-bookmarks"></i>
+                                             <span>Bookmarks</span>
+                                         </a>
+                                      </li>
+                                      <!---->
+                                      <li>
+                                         <a href="profile.html" class="d-flex align-items-center">
+                                            <div class="user-img">
+                                             <img src="images/user.png" alt="">
+                                            </div>
+                                             <span>Profile</span>
+                                         </a>
+                                      </li>
+                                      <!---->
+                                      <li>
+                                         <a href="more.html" class="d-flex align-items-center">
+                                             <i class="icon-more-1"></i>
+                                             <span>More</span>
+                                         </a>
+                                      </li>
+                                      <!---->
+                                      <li>
+                                         <a href="wallet.html" class="d-flex align-items-center">
+                                             <i class="icon-debit-card"></i>
+                                             <span>Mange Wallet</span>
+                                         </a>
+                                      </li>
+                                      <!---->
+                                      <li>
+                                         <a href="tickets.html" class="d-flex align-items-center">
+                                             <i class="icon-receipt"></i>
+                                             <span>Tickets</span>
+                                         </a>
+                                      </li>
+                                      <!---->
+                                      <li>
+                                         <span class="add-ppost hov d-lg-block d-none" data-toggle="modal" data-target="#myModal2">Add Post</span>
+                                     </li>
+                                      <!---->
+                                </ul>
+                               </div>
+
+                               
+
+                                <!-- Add Post Modal -->
+                                <div class="modal add-post-modal fade" id="myModal2">
+                                    <div class="modal-dialog">
+                                            <div class="modal-content">
+                                            
+                                                <!-- Modal Header -->
+                                                <div class="modal-header">
+                                                <h4 class="modal-title">
+                                                    <div class="user-img d-inline-block">
+                                                        <img src="images/user.png" alt="">
+                                                    </div>
+                                                    &nbsp;
+                                                    Post Informations
+                                                </h4>
+                                                <button type="button" class="close" data-dismiss="modal"><i class="icofont-close-line"></i></button>
+                                                </div>
+                                                
+                                                <!-- Modal body -->
+                                                <div class="modal-body">
+                                                    <form action="#">
+                                                        <!--form group-->
+                                                        <div class="f-group">
+                                                            <label for="">Post <span> 565 Letters </span></label>
+                                                            <div class="f-group-textarea">
+                                                                <textarea name="" id="" rows="6" placeholder="Write A short Description"> </textarea>
+                                                                <div class="add-media-to-your-post add-media-to-your-post-icon d-flex flex-wrap align-items-center justify-content-start">
+                                                                    <div class="add-media-to-post-img d-flex align-items-center justify-content-center">
+                                                                        <i class="icon-photo-camera"></i>
+                                                                    </div>
+                                                                    <div class="add-media-to-post-img">
+                                                                        <img src="images/77.png" alt="">
+                                                                    </div>
+                                                                    <div class="add-media-to-post-img">
+                                                                        <img src="images/77.png" alt="">
+                                                                    </div>
+                                                                    <div class="add-media-to-post-img">
+                                                                        <img src="images/77.png" alt="">
+                                                                    </div>
+                                                                    <div class="add-media-to-post-img">
+                                                                        <img src="images/77.png" alt="">
+                                                                    </div>
+                                                                    <div class="add-media-to-post-img">
+                                                                        <img src="images/77.png" alt="">
+                                                                    </div>
+                                                                    <div class="add-media-to-post-img">
+                                                                        <img src="images/77.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!---->
+                                                        <!--form group-->
+                                                        <div class="f-group">
+                                                            <label for="">Tag</label>
+                                                            <select name="" id="">
+                                                                <option value="">Design</option>
+                                                                <option value="">Design</option>
+                                                                <option value="">Design</option>
+                                                                <option value="">Design</option>
+                                                            </select>
+                                                        </div>
+                                                        <!---->
+                                                        <!--form group-->
+                                                        <div class="f-group">
+                                                            <label for="">Price</label>
+                                                            <input type="text" placeholder="50">
+                                                            <span class="currency">$</span>
+                                                        </div>
+                                                        <!---->
+                                                        <!--form group-->
+                                                        <div class="f-group">
+                                                            <label for=""> deadline</label>
+                                                            <input type="text" placeholder="2 days">
+                                                        </div>
+                                                        <!---->
+                                                        <!--form group-->
+                                                        <div class="f-group">
+                                                            <label for="">Call</label>
+                                                            <select name="" id="">
+                                                                <option value="">100</option>
+                                                                <option value="">100</option>
+                                                                <option value="">100</option>
+                                                                <option value="">100</option>
+                                                            </select>
+                                                        <span class="currency">$</span>
+                                                        </div>
+                                                        <!---->
+                                                        <!--form group-->
+                                                        <div class="f-group">
+                                                            <label for="">Video</label>
+                                                            <select name="" id="">
+                                                                <option value="">100</option>
+                                                                <option value="">100</option>
+                                                                <option value="">100</option>
+                                                                <option value="">100</option>
+                                                            </select>
+                                                            <span class="currency">$</span>
+                                                        </div>
+                                                        <!---->
+                                                        <!--form group-->
+                                                        <div class="f-group">
+                                                            <button class="add-ppost hov mt-5">Add Post</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                                <!--end modal-->
+                               <!--end menu links-->
+
+                               
+                                <!--links under side bar menu-->
+                                <div class="links-under-side-menu d-lg-block d-none">
+                                    <a href="faqs.html">FAQ's</a>
+                                    -
+                                    <a href="terms-of-service.html">Terms Of Service</a>
+                                    -
+                                    <a href="privacy-policy.html">Privacy Policy</a>
+                                    -
+                                    <a href="#"> Arabic </a>
+                                </div>
+                                <!--===-->
+
+                           </div>
+                        </div>
+                         <!--====end Side Bar Menu=====-->
+
+                         <!--page body-->
+                        <div class="col-xl-6 col-lg-8">
+                            <div class="page">
+
+                                <h3 class="prev">
+                                    <a href="" class="d-inline-block">
+                                        <i class="icon-left-arrow-1"></i>
+                                        <span>
+                                            Notifications
+                                        </span>
+                                    </a>
+                                </h3>
+
+                                <div class="notifications-container">
+                                    <ul class="list-unstyled">
+                                        <li class="notif-like d-flex align-items-center justify-content-between">
+
+                                            <!---->
+                                            <div class="d-flex align-items-center flex-sm-nowrap flex-wrap">
+                                                <div class="user-img">
+                                                    <img src="images/user.png" alt="">
+                                                </div>
+                                                <div class="d-sm-none" style="height: 0; width: 100%; flex: 0 1 100%;"></div>
+                                                <div class="contact-list-user-name">
+                                                    peter
+                                                    <span class="d-inline-block user-title">
+                                                       started to follow you
+                                                    </span>
+                                                    <span class="d-block user-title">Juin 15</span>
+                                                </div>
+                                            </div>
+                                            <!---->
+                                        </li>
+                                        <li class="notif-like d-flex align-items-center justify-content-between">
+
+                                            <!---->
+                                            <div class="d-flex align-items-center flex-sm-nowrap flex-wrap">
+                                                <div class="_users">
+                                                    <div class="user-img user-img1">
+                                                        <img src="images/user.png" alt="">
+                                                    </div>
+                                                    <div class="user-img user-img2">
+                                                        <img src="images/user.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="d-sm-none" style="height: 0; width: 100%; flex: 0 1 100%;"></div>
+                                                <div class="contact-list-user-name">
+                                                    Sara
+                                                    <span class="d-inline-block user-title"> and 5 others liked your
+                                                        post
+                                                    </span>
+                                                    <span class="d-block user-title">15 hous ago</span>
+                                                </div>
+                                            </div>
+                                            <!---->
+
+                                            <div>
+                                                <div class="notif-img">
+                                                    <img src="images/7777.png" alt="">
+                                                </div>
+                                            </div>
+
+                                        </li>
+
+                                        <li class="notif-like d-flex align-items-center justify-content-between">
+
+                                            <!---->
+                                            <div class="d-flex align-items-center flex-sm-nowrap flex-wrap">
+                                                <div class="user-img">
+                                                    <img src="images/user.png" alt="">
+                                                </div>
+                                                <div class="d-sm-none" style="height: 0; width: 100%; flex: 0 1 100%;"></div>
+                                                <div class="contact-list-user-name">
+                                                    lee
+                                                    <span class="d-inline-block user-title">
+                                                        send you a follow request
+                                                    </span>
+                                                    <span class="d-block user-title">Juin 15</span>
+                                                </div>
+                                            </div>
+                                            <!---->
+
+                                            <div>
+                                                <a href="#"  class="hov">Accept</a>
+                                            </div>
+                                        </li>
+
+                                        <li class="notif-like d-flex align-items-center justify-content-between">
+
+                                            <!---->
+                                            <div class="d-flex align-items-center flex-sm-nowrap flex-wrap">
+                                                <div class="user-img">
+                                                    <img src="images/user.png" alt="">
+                                                </div>
+                                                <div class="d-sm-none" style="height: 0; width: 100%; flex: 0 1 100%;"></div>
+                                                <div class="contact-list-user-name">
+                                                    jessy 
+                                                    <span class="d-inline-block user-title">
+                                                        subscriped to you
+                                                    </span>
+                                                    <span class="d-block user-title">Juin 15</span>
+                                                </div>
+                                            </div>
+                                            <!---->
+
+                                            <div>
+                                                <a href="#"  class="hov">Message</a>
+                                            </div>
+                                        </li>
+
+                                        <li class="notif-like d-flex align-items-center justify-content-between">
+
+                                            <!---->
+                                            <div class="d-flex align-items-center flex-sm-nowrap flex-wrap">
+                                                <div class="user-img">
+                                                    <img src="images/user.png" alt="">
+                                                </div>
+                                                <div class="d-sm-none" style="height: 0; width: 100%; flex: 0 1 100%;"></div>
+                                                <div class="contact-list-user-name">
+                                                    peter
+                                                    <span class="d-inline-block user-title">
+                                                       Canceled you order
+                                                    </span>
+                                                    <span class="d-block user-title">Juin 15</span>
+                                                </div>
+                                            </div>
+                                            <!---->
+
+                                            <div>
+                                                <a href="#" class="hov">Accept</a>
+                                            </div>
+
+                                        </li>
+
+                                        <li class="notif-like d-flex align-items-center justify-content-between">
+
+                                            <!---->
+                                            <div class="d-flex align-items-center flex-sm-nowrap flex-wrap">
+                                                <div class="user-img">
+                                                    <img src="images/user.png" alt="">
+                                                </div>
+                                                <div class="d-sm-none" style="height: 0; width: 100%; flex: 0 1 100%;"></div>
+                                                <div class="contact-list-user-name">
+                                                    jessy
+                                                    <span class="d-inline-block user-title">
+                                                      Accepted your order
+                                                    </span>
+                                                    <span class="d-block user-title">Juin 15</span>
+                                                </div>
+                                            </div>
+                                            <!---->
+                                        </li>
+
+                                        <li class="notif-like d-flex align-items-center justify-content-between">
+
+                                            <!---->
+                                            <div class="d-flex align-items-center flex-sm-nowrap flex-wrap">
+                                                <div class="user-img">
+                                                    <img src="images/user.png" alt="">
+                                                </div>
+                                                <div class="d-sm-none" style="height: 0; width: 100%; flex: 0 1 100%;"></div>
+                                                <div class="contact-list-user-name">
+                                                    lee
+                                                    <span class="d-inline-block user-title">
+                                                        your order end now
+                                                    </span>
+                                                    <span class="d-block user-title">Juin 15</span>
+                                                </div>
+                                            </div>
+                                            <!---->
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--end page body-->
+
+
+                         <!--=============contact list / Suggestions============ -->
+                         <div class="col-xl-3 d-xl-block d-none">
+                            <div class="contact-list">
+                                <div class="row">
+                                    <div class="col-xl-12 col-md-6">
+                                        <h2>Contact List</h2>
+                                        <div class="contact-list-content">
+                                            <div class="contact-form-search">
+                                                <form action="#" class="d-flex align-items-center">
+                                                    <input type="text" placeholder="User Name">
+                                                    <button><i class="icofont-search-2"></i></button>
+                                                </form>
+                                            </div>
+                                            <ul class="list-unstyled">
+                                                <!--user-->
+                                                <li>
+                                                    <a href="#" class="d-flex align-items-center">
+                                                        <div class="user-img">
+                                                            <span class="status d-block" style="background: #37E181;"></span>
+                                                            <img src="images/user.png" alt="">
+                                                        </div>
+                                                        <div class="contact-list-user-name">
+                                                            User Name
+                                                            <span class="d-block coming-msg"></span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <!--end user-->
+                                                 <!--user-->
+                                                 <li>
+                                                    <a href="#" class="d-flex align-items-center">
+                                                        <div class="user-img">
+                                                            <span class="status d-block" style="background: #A5A5A5;"></span>
+                                                            <img src="images/sh.jpg" alt="">
+                                                        </div>
+                                                        <div class="contact-list-user-name">
+                                                            User Name
+                                                            <span class="d-block coming-msg"></span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <!--end user-->
+                                                 <!--user-->
+                                                 <li>
+                                                    <a href="#" class="d-flex align-items-center">
+                                                        <div class="user-img">
+                                                            <span class="status d-block" style="background: #37E181;"></span>
+                                                            <img src="images/user.png" alt="">
+                                                        </div>
+                                                        <div class="contact-list-user-name">
+                                                            User Name
+                                                            <span class="d-block coming-msg"></span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <!--end user-->
+                                                 <!--user-->
+                                                 <li>
+                                                    <a href="#" class="d-flex align-items-center">
+                                                        <div class="user-img">
+                                                            <span class="status d-block" style="background: #37E181;"></span>
+                                                            <img src="images/user.png" alt="">
+                                                        </div>
+                                                        <div class="contact-list-user-name">
+                                                            User Name
+                                                            <span class="d-block coming-msg"></span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <!--end user-->
+                                                 <!--user-->
+                                                 <li>
+                                                    <a href="#" class="d-flex align-items-center">
+                                                        <div class="user-img">
+                                                            <span class="status d-block" style="background: #37E181;"></span>
+                                                            <img src="images/user.png" alt="">
+                                                        </div>
+                                                        <div class="contact-list-user-name">
+                                                            User Name
+                                                            <span class="d-block coming-msg"></span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <!--end user-->
+                                                 <!--user-->
+                                                 <li>
+                                                    <a href="#" class="d-flex align-items-center">
+                                                        <div class="user-img">
+                                                            <span class="status d-block" style="background: #37E181;"></span>
+                                                            <img src="images/user.png" alt="">
+                                                        </div>
+                                                        <div class="contact-list-user-name">
+                                                            User Name
+                                                            <span class="d-block coming-msg"></span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <!--end user-->   
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-12 col-md-6">
+
+                                        <!--===Suggestions to follow===-->
+                                        <div class="suggestion-to-follow">
+                                            <h2>Suggestions to follow</h2>
+                                            <div class=" contact-list-content">
+                                                <ul class="list-unstyled">
+                                                    <!--user-->
+                                                    <li>
+                                                        <div class="d-flex align-items-center justify-content-between">
+                                                            <a href="user.html" class="d-flex align-items-center">
+                                                                <div class="user-img">
+                                                                    <img src="images/user.png" alt="">
+                                                                </div>
+                                                                <div class="contact-list-user-name">
+                                                                    User Name
+                                                                    <span class="d-block user-title"> designer</span>
+                                                                </div>
+                                                            </a>
+                                                            <div>
+                                                                <button class="follow-user hov d-block text-center"> follow </button>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <!--end user-->  
+                                                    <!--user-->
+                                                    <li>
+                                                        <div class="d-flex align-items-center justify-content-between">
+                                                            <a href="user.html" class="d-flex align-items-center">
+                                                                <div class="user-img">
+                                                                    <img src="images/user.png" alt="">
+                                                                </div>
+                                                                <div class="contact-list-user-name">
+                                                                    User Name
+                                                                    <span class="d-block user-title"> designer</span>
+                                                                </div>
+                                                            </a>
+                                                            <div>
+                                                                <button class="follow-user hov d-block text-center"> follow </button>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <!--end user-->  
+                                                    <!--user-->
+                                                    <li>
+                                                        <div class="d-flex align-items-center justify-content-between">
+                                                            <a href="user.html" class="d-flex align-items-center">
+                                                                <div class="user-img">
+                                                                    <img src="images/user.png" alt="">
+                                                                </div>
+                                                                <div class="contact-list-user-name">
+                                                                    User Name
+                                                                    <span class="d-block user-title"> designer</span>
+                                                                </div>
+                                                            </a>
+                                                            <div>
+                                                                <button class="follow-user hov d-block text-center"> follow </button>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <!--end user-->  
+                                                    <!--user-->
+                                                    <li>
+                                                        <div class="d-flex align-items-center justify-content-between">
+                                                            <a href="user.html" class="d-flex align-items-center">
+                                                                <div class="user-img">
+                                                                    <img src="images/user.png" alt="">
+                                                                </div>
+                                                                <div class="contact-list-user-name">
+                                                                    User Name
+                                                                    <span class="d-block user-title"> designer</span>
+                                                                </div>
+                                                            </a>
+                                                            <div>
+                                                                <button class="follow-user hov d-block text-center"> follow </button>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <!--end user-->  
+                                                
+                                                </ul>
+
+                                                <a href="#" class="more-suggestions d-inline-block">more</a>
+                                            </div>
+                                        </div>
+                                        <!--=end Suggestions to follow=-->
+                                    </div>
+                                </div>
+                               
+
+                               
+
+                            </div>
+                        </div>
+                        <!--======= end contact list / Suggestions=========-->
+                    </div>
+                </div>
+            </div>
+            <!--===============-->
+
+
+            <!--foote for small screens-->
+            <footer>
+                <div class="container">
+                    <div class="links-under-side-menu d-lg-none">
+                        <a href="faqs.html">FAQ's</a>
+                        -
+                        <a href="terms-of-service.html">Terms Of Service</a>
+                        -
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                        -
+                        <a href="suggetions.html">Suggetions to follow</a>
+                        -
+                        <a href="contact-list.html">Contact List</a>
+                        <a href="#"> Arabic </a>
+                    </div>
+                </div>
+            </footer>
+            <!--end footer for small screens-->
+            
+        </div>
+
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.nice-select.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/lightgallery.min.js"></script>
+        <script src="js/inputEmoji.js"></script>
+        <script src="js/pricerange.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

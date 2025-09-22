@@ -1,0 +1,675 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Inbox - Shaheer UI Project.">
+        <title>Inbox | Shaheer UI</title>
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="images/FullColor_1024x1024.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/icofont.min.css" />
+        <link rel="stylesheet" href="css/fonts/style.css" />
+        <link rel="stylesheet" href="css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+        <link rel="stylesheet" href="css/nice-select.css" />
+        <link rel="stylesheet" href="css/lightgallery.min.css" />
+        <link rel="stylesheet" href="css/priceRange.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- <link rel="stylesheet" href="css/rtl.css" /> -->
+    </head>
+    <body>
+
+
+        <div class="pageContainer">
+
+            <!---====== incoming call =======-->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong" style="position: absolute; top: 0;">
+               incoming call
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal incoming-call fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Incoming Call</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                       <div class="img d-inline-block align-middle">
+                           <img src="images/user.png" alt="">
+                       </div>
+                       <span>
+                           incoming call from <strong>ali ali</strong>
+                       </span>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary">Cancel</button>
+                    <button type="button" class="btn btn-primary">Replay</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!--=============================-->
+            <!--=====NAV BAR====-->
+            <nav>
+                <div class="container">
+                    
+                    <div class="row">
+
+                        <div class="col-lg-4 col-sm-3 col-6 col-3 align-self-center">
+                            <a href="" class="logo d-block">
+                                <img src="images/group11.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 align-self-center order-sm-2 order-3">
+                            <div class="searchform">
+                                <form action="">
+                                    <input type="text" name="" id="" placeholder="Search...">
+                                    <button><i class="icofont-search-2"></i></button>
+                                </form>
+
+                                 <!--Search history-->
+                                 <div class="search-history">
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex align-items-center justify-content-between">
+                                            <span><i class="icofont-clock-time"></i>  search history result 1 </span>
+                                            <a href="#">Remove</a>
+                                        </li>
+                                        <li class="d-flex align-items-center justify-content-between">
+                                            <span><i class="icofont-clock-time"></i>  search history result 1 </span>
+                                            <a href="#">Remove</a>
+                                        </li>
+                                        <li class="d-flex align-items-center justify-content-between">
+                                            <span><i class="icofont-clock-time"></i>  search history result 1 </span>
+                                            <a href="#">Remove</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!---->
+
+
+                                <!--search results-->
+                                <div class="_search-results">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="search-results.html" class="d-block">design</a>
+                                        </li>
+                                        <li>
+                                            <a href="search-results.html" class="d-block">design human interface</a>
+                                        </li>
+                                        <li>
+                                            <a href="search-results.html" class="d-block">work design projects</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--end-serch results -->
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-3 col-6 order-sm-3 order-2 align-self-center">
+                            <div class="cart-connect d-flex align-items-center justify-content-end">
+                               <a class="d-block" href="connect.html"><i class="icon-add-contact"></i></a>
+                               <a class="d-block" href="cart.html"><i class="icon-cartt"></i> <span class="d-block"></span></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+            <!--===============-->
+
+            <!--===PAGE BODY===-->
+            <div class="page-body">
+                <div class="container">
+                    <div class="row">
+                         <!--=======Side Bar Menu======-->
+                        <div class="col-xl-3 col-lg-4">
+                           <div class="sidebar-menu">
+
+                               <!--menu links-->
+                               <div class="side-menu-links-container">
+                                <i class="icofont-navigation-menu d-lg-none d-inline-block open-side-menu"></i>
+                                <ul class="list-unstyled side-menu-links">
+                                    <!---->
+                                    <li>
+                                        <a href="home.html" class="d-flex align-items-center">
+                                            <i class="icon-home-line"></i>
+                                            <span>Feed</span>
+                                        </a>
+                                     </li>
+                                     <!---->
+                                     <li>
+                                         <a href="services.html" class="d-flex align-items-center">
+                                             <i class="icon-wireframe"></i>
+                                             <span>Services</span>
+                                         </a>
+                                      </li>
+                                      <!---->
+                                      <li>
+                                         <a href="inbox.html" class="d-flex align-items-center">
+                                             <i class="icon-email"></i>
+                                             <span>Inbox</span>
+                                         </a>
+                                      </li>
+                                      <!---->
+                                      <li>
+                                         <a href="notifications.html" class="d-flex align-items-center">
+                                             <i class="icon-notification"></i>
+                                             <span>Notifications</span>
+                                         </a>
+                                      </li>
+                                      <!---->
+                                      <li>
+                                         <a href="helps.html" class="d-flex align-items-center">
+                                             <i class="icon-lifesaver"></i>
+                                             <span>Helps</span>
+                                         </a>
+                                      </li>
+                                      <!---->
+                                      <li>
+                                         <a href="bookmarks.html" class="d-flex align-items-center">
+                                             <i class="icon-bookmarks"></i>
+                                             <span>Bookmarks</span>
+                                         </a>
+                                      </li>
+                                      <!---->
+                                      <li>
+                                         <a href="profile.html" class="d-flex align-items-center">
+                                            <div class="user-img">
+                                             <img src="images/user.png" alt="">
+                                            </div>
+                                             <span>Profile</span>
+                                         </a>
+                                      </li>
+                                      <!---->
+                                      <li>
+                                         <a href="more.html" class="d-flex align-items-center">
+                                             <i class="icon-more-1"></i>
+                                             <span>More</span>
+                                         </a>
+                                      </li>
+                                      <!---->
+                                      <li>
+                                         <a href="wallet.html" class="d-flex align-items-center">
+                                             <i class="icon-debit-card"></i>
+                                             <span>Mange Wallet</span>
+                                         </a>
+                                      </li>
+                                      <!---->
+                                      <li>
+                                         <a href="tickets.html" class="d-flex align-items-center">
+                                             <i class="icon-receipt"></i>
+                                             <span>Tickets</span>
+                                         </a>
+                                      </li>
+                                      <!---->
+                                      <li>
+                                         <span class="add-ppost hov d-lg-block d-none" data-toggle="modal" data-target="#myModal2">Add Post</span>
+                                     </li>
+                                      <!---->
+                                </ul>
+                               </div>
+
+                               
+
+                                <!-- Add Post Modal -->
+                                <div class="modal add-post-modal fade" id="myModal2">
+                                    <div class="modal-dialog">
+                                            <div class="modal-content">
+                                            
+                                                <!-- Modal Header -->
+                                                <div class="modal-header">
+                                                <h4 class="modal-title">
+                                                    <div class="user-img d-inline-block">
+                                                        <img src="images/user.png" alt="">
+                                                    </div>
+                                                    &nbsp;
+                                                    Post Informations
+                                                </h4>
+                                                <button type="button" class="close" data-dismiss="modal"><i class="icofont-close-line"></i></button>
+                                                </div>
+                                                
+                                                <!-- Modal body -->
+                                                <div class="modal-body">
+                                                    <form action="#">
+                                                        <!--form group-->
+                                                        <div class="f-group">
+                                                            <label for="">Post <span> 565 Letters </span></label>
+                                                            <div class="f-group-textarea">
+                                                                <textarea name="" id="" rows="6" placeholder="Write A short Description"> </textarea>
+                                                                <div class="add-media-to-your-post add-media-to-your-post-icon d-flex flex-wrap align-items-center justify-content-start">
+                                                                    <div class="add-media-to-post-img d-flex align-items-center justify-content-center">
+                                                                        <i class="icon-photo-camera"></i>
+                                                                    </div>
+                                                                    <div class="add-media-to-post-img">
+                                                                        <img src="images/77.png" alt="">
+                                                                    </div>
+                                                                    <div class="add-media-to-post-img">
+                                                                        <img src="images/77.png" alt="">
+                                                                    </div>
+                                                                    <div class="add-media-to-post-img">
+                                                                        <img src="images/77.png" alt="">
+                                                                    </div>
+                                                                    <div class="add-media-to-post-img">
+                                                                        <img src="images/77.png" alt="">
+                                                                    </div>
+                                                                    <div class="add-media-to-post-img">
+                                                                        <img src="images/77.png" alt="">
+                                                                    </div>
+                                                                    <div class="add-media-to-post-img">
+                                                                        <img src="images/77.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!---->
+                                                        <!--form group-->
+                                                        <div class="f-group">
+                                                            <label for="">Tag</label>
+                                                            <select name="" id="">
+                                                                <option value="">Design</option>
+                                                                <option value="">Design</option>
+                                                                <option value="">Design</option>
+                                                                <option value="">Design</option>
+                                                            </select>
+                                                        </div>
+                                                        <!---->
+                                                        <!--form group-->
+                                                        <div class="f-group">
+                                                            <label for="">Price</label>
+                                                            <input type="text" placeholder="50">
+                                                            <span class="currency">$</span>
+                                                        </div>
+                                                        <!---->
+                                                        <!--form group-->
+                                                        <div class="f-group">
+                                                            <label for=""> deadline</label>
+                                                            <input type="text" placeholder="2 days">
+                                                        </div>
+                                                        <!---->
+                                                        <!--form group-->
+                                                        <div class="f-group">
+                                                            <label for="">Call</label>
+                                                            <select name="" id="">
+                                                                <option value="">100</option>
+                                                                <option value="">100</option>
+                                                                <option value="">100</option>
+                                                                <option value="">100</option>
+                                                            </select>
+                                                        <span class="currency">$</span>
+                                                        </div>
+                                                        <!---->
+                                                        <!--form group-->
+                                                        <div class="f-group">
+                                                            <label for="">Video</label>
+                                                            <select name="" id="">
+                                                                <option value="">100</option>
+                                                                <option value="">100</option>
+                                                                <option value="">100</option>
+                                                                <option value="">100</option>
+                                                            </select>
+                                                            <span class="currency">$</span>
+                                                        </div>
+                                                        <!---->
+                                                        <!--form group-->
+                                                        <div class="f-group">
+                                                            <button class="add-ppost hov mt-5">Add Post</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                                <!--end modal-->
+                               <!--end menu links-->
+
+                               
+                                <!--links under side bar menu-->
+                                <div class="links-under-side-menu d-lg-block d-none">
+                                    <a href="faqs.html">FAQ's</a>
+                                    -
+                                    <a href="terms-of-service.html">Terms Of Service</a>
+                                    -
+                                    <a href="privacy-policy.html">Privacy Policy</a>
+                                    -
+                                    <a href="#"> Arabic </a>
+                                </div>
+                                <!--===-->
+
+                           </div>
+                        </div>
+                         <!--====end Side Bar Menu=====-->
+                        
+                        <!--===inbox contact list=== -->
+                        <div class="col-xl-4 col-lg-4">
+                            <div class="contact-list">
+
+                                <h3 class="prev">
+                                    <a href="" class="d-inline-block">
+                                        <i class="icon-left-arrow-1"></i>
+                                        <span>
+                                            Messages
+                                        </span>
+                                    </a>
+                                </h3>
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="contact-list-content">
+                                            <div class="contact-form-search">
+                                                <form action="#" class="d-flex align-items-center">
+                                                    <input type="text" placeholder="User Name">
+                                                    <button><i class="icofont-search-2"></i></button>
+                                                </form>
+                                            </div>
+                                            <ul class="list-unstyled inbox-contacts">
+                                                <!--user-->
+                                                <li class="inbox-contact">
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="user-img">
+                                                            <span class="status d-block" style="background: #37E181;"></span>
+                                                            <img src="images/user.png" alt="">
+                                                        </div>
+                                                        <div class="contact-list-user-name">
+                                                            <div class="d-flex align-items-center justify-content-between">
+                                                                <span class=""> User Name</span>
+                                                                <div class="inbox-date-options">
+                                                                    <span class="inbox-date">Juin 15</span>
+                                                                    <span class="inbox-user-options"> 
+                                                                        <span></span>
+                                                                        <span></span>
+                                                                        <span></span>
+                                                                    </span>
+
+                                                                    <div class="pp-options-dots">
+                                                                        <ul class="list-unstyled">
+                                                                            <li><a href="#"><i class="icofont-flag"></i> Report</a></li>
+                                                                            <li><a href="#"><i class="icofont-ui-block"></i> Block </a></li>
+                                                                            <li><a href="#"><i class="icofont-trash"></i> Delete</a></li>
+                                                                           
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <p>
+                                                                sent you an attachment
+                                                            </p>
+                                                            <span class="d-block coming-msg"></span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <!--end user-->
+
+                                                <!--user-->
+                                                <li class="inbox-contact">
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="user-img">
+                                                            <span class="status d-block" style="background: #37E181;"></span>
+                                                            <img src="images/user.png" alt="">
+                                                        </div>
+                                                        <div class="contact-list-user-name">
+                                                            <div class="d-flex align-items-center justify-content-between">
+                                                                <span class=""> User Name</span>
+                                                                <div class="inbox-date-options">
+                                                                    <span class="inbox-date">Juin 15</span>
+                                                                    <span class="inbox-user-options"> 
+                                                                        <span></span>
+                                                                        <span></span>
+                                                                        <span></span>
+                                                                    </span>
+
+                                                                    <div class="pp-options-dots">
+                                                                        <ul class="list-unstyled">
+                                                                            <li><a href="#"><i class="icofont-flag"></i> Report</a></li>
+                                                                            <li><a href="#"><i class="icofont-ui-block"></i> Block </a></li>
+                                                                            <li><a href="#"><i class="icofont-trash"></i> Delete</a></li>
+                                                                           
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <p>
+                                                                sent you an attachment
+                                                            </p>
+                                                            <span class="d-block readable-msg"><i class="icofont-check"></i></span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <!--end user-->
+
+                                                <!--user-->
+                                                <li class="inbox-contact">
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="user-img">
+                                                            <span class="status d-block" style="background: #37E181;"></span>
+                                                            <img src="images/user.png" alt="">
+                                                        </div>
+                                                        <div class="contact-list-user-name">
+                                                            <div class="d-flex align-items-center justify-content-between">
+                                                                <span class=""> User Name</span>
+                                                                <div class="inbox-date-options">
+                                                                    <span class="inbox-date">Juin 15</span>
+                                                                    <span class="inbox-user-options"> 
+                                                                        <span></span>
+                                                                        <span></span>
+                                                                        <span></span>
+                                                                    </span>
+
+                                                                    <div class="pp-options-dots">
+                                                                        <ul class="list-unstyled">
+                                                                            <li><a href="#"><i class="icofont-flag"></i> Report</a></li>
+                                                                            <li><a href="#"><i class="icofont-ui-block"></i> Block </a></li>
+                                                                            <li><a href="#"><i class="icofont-trash"></i> Delete</a></li>
+                                                                           
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <p>
+                                                                sent you an attachment
+                                                            </p>
+                                                            <span class="d-block unreadable-msg"></span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <!--end user-->
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--== end inbox contact list===-->
+
+                        <!--==Chat Box==-->
+                        <div class="col-xl-5 col-lg-4">
+                            <div class="chatbox">
+                                <div class="chat-container">
+                                    <ul class="inbox-messages list-unstyled">
+                                        <span class="d-block date-of-conversation text-center">8/22/19 , 3:35 AM</span>
+                                        <!--you-->
+                                        <li class="you d-flex align-items-start justify-content-start">
+                                            <div class="user-img">
+                                                <img src="images/user.png" alt="">
+                                            </div>
+                                            <div class="__msg">
+                                                <span class="d-inline-block"> Hi , how are you ? </span>
+                                            </div>
+                                        </li>
+                                        <!---->
+                                        <!--me-->
+                                        <li class="me">
+                                            <div class="d-flex justify-content-end">
+                                                <div class="__msg">
+                                                    Hi man , i'm fine …. Hi man 
+                                                </div>
+                                            </div>
+                                            <span class="seen">seen</span>
+                                        </li>
+                                        <!---->
+                                        <span class="d-block date-of-conversation text-center">8/22/19 , 3:35 AM</span>
+                                         <!--you-->
+                                         <li class="you d-flex align-items-start justify-content-start">
+                                            <div class="user-img">
+                                                <img src="images/user.png" alt="">
+                                            </div>
+                                            <div class="__msg">
+                                                <span class="d-inline-block"> Lorem Ipsum is simply dummy text of theprinting and typesetting industry. Lorem Ipsum has been the industry's  </span>
+                                            </div>
+                                        </li>
+                                        <!---->
+                                        <!--me-->
+                                        <li class="me">
+                                            <div class="d-flex justify-content-end">
+                                                <div class="__msg">
+                                                    Lorem Ipsum is simply dummy text of theprinting and typesetting industry. Lorem Ipsum has been the industry's 
+                                                </div>
+                                            </div>
+                                            <span class="seen">seen</span>
+                                        </li>
+                                        <!---->
+
+                                        <!--==more thsn one msg==-->
+                                        <li class="mtom">
+                                            <ul class="list-unstyled">
+                                                 <!--you-->
+                                                <li class="you d-flex align-items-start justify-content-start">
+                                                    <div class="user-img">
+                                                    </div>
+                                                    <div class="__msg">
+                                                        <span class="d-inline-block"> Hi , how are you ? </span>
+                                                    </div>
+                                                </li>
+                                                <!---->
+                                                <!--you-->
+                                                <li class="you d-flex align-items-start justify-content-start">
+                                                    <div class="user-img">
+                                                    </div>
+                                                    <div class="__msg">
+                                                        <div class="video-msg">
+                                                            <img src="images/rawpixel-611110-unsplash.png" alt="">
+                                                            <i class="icofont-ui-play"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <!---->
+                                                <!--you-->
+                                                <li class="you d-flex align-items-start justify-content-start">
+                                                    <div class="user-img">
+                                                        <img src="images/user.png" alt="">
+                                                    </div>
+                                                    <div class="__msg">
+                                                        <span class="d-inline-block text-center typing">
+                                                            <span class="d-inline-block"></span>
+                                                            <span class="d-inline-block"></span>
+                                                            <span class="d-inline-block"></span>
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <!---->
+                                            </ul>
+                                        </li>
+                                        <!--===end more than one msg==-->
+                                        
+                                        <!--me-->
+                                        <li class="me">
+                                            <div class="d-flex justify-content-end">
+                                                <div class="__msg">
+                                                    Hi man , i'm fine …. 
+                                                </div>
+                                            </div>
+                                            <span class="seen">seen</span>
+                                        </li>
+                                        <!---->
+
+                                        <span class="d-block date-of-conversation text-center">8/22/19 , 3:35 AM</span>
+
+                                        <!--you-->
+                                        <li class="you d-flex align-items-start justify-content-start">
+                                            <div class="user-img">
+                                                <img src="images/user.png" alt="">
+                                            </div>
+                                            <div class="__msg">
+                                                <span class="d-inline-block">Lorem Ipsum is simply dummy text of theprinting and typesetting industry. Lorem Ipsum has been the industry's </span>
+                                            </div>
+                                        </li>
+                                        <!---->
+                                         <!--me-->
+                                         <li class="me">
+                                            <div class="d-flex justify-content-end">
+                                                <div class="__msg">
+                                                    Lorem Ipsum is simply dummy text of theprinting and typesetting industry. Lorem Ipsum has been the industry's 
+                                                </div>
+                                            </div>
+                                            <span class="seen">seen</span>
+                                        </li>
+                                        <!---->
+                                    </ul>
+
+                                    <!--Sebd Message Form-->
+                                    <form class="send-msg-form" action="">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="ffile">
+                                                <input type="file" name="" id="sendMediaToMsg" class="d-none">
+                                                <label for="sendMediaToMsg" class=" d-flex align-items-center justify-content-center"><i class="icofont-plus"></i></label>
+                                            </div>
+
+                                            <div class="ffgroup">
+                                                <input type="text" name="" id="" placeholder="Start a message">
+                                            </div>
+
+                                            <div class="ffile">
+                                                <input type="file" name="" id="videoCall_" class="d-none">
+                                                <label for="videoCall_" data-on-hover="you can swnd a video call" class="data-on-hover d-flex align-items-center justify-content-center"><i class="icofont-video"></i></label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <!--End Send Message Form-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--==end Chat Box==-->
+                    </div>
+                </div>
+            </div>
+            <!--===============-->
+
+            <!--foote for small screens-->
+            <footer>
+                <div class="container">
+                    <div class="links-under-side-menu d-lg-none">
+                        <a href="faqs.html">FAQ's</a>
+                        -
+                        <a href="terms-of-service.html">Terms Of Service</a>
+                        -
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                        -
+                        <a href="suggetions.html">Suggetions to follow</a>
+                        -
+                        <a href="contact-list.html">Contact List</a>
+                        <a href="#"> Arabic </a>
+                    </div>
+                </div>
+            </footer>
+            <!--end footer for small screens-->
+            
+        </div>
+
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.nice-select.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/lightgallery.min.js"></script>
+        <script src="js/inputEmoji.js"></script>
+        <script src="js/pricerange.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
